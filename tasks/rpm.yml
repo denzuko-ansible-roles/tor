@@ -1,0 +1,9 @@
+--- 
+- name: Upgrade system
+  yum: name="*" state=latest
+
+- name: Add epel repository
+  yum: name="epel-release" state=latest
+
+- name: Install Tor router
+  yum: name="tor" state=latest update_cache=yes
