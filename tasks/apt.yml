@@ -4,8 +4,6 @@
   
 - name: Upgrade system
   apt: upgrade=full
-  when: ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu'
 
 - name: Install Tor router
   apt: name=tor state=present
-  when: ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu'
