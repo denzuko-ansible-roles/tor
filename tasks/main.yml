@@ -15,6 +15,4 @@
   service: name=tor state=started
 
 - name: Display hidden service name
-  command: "grep onion /var/lib/tor/hidden_service/hostname"
-  register: torname
-- debug: var=torname.stdout_lines
+  debug: "Node address: {{ lookup('file', '/var/lib/tor/hidden_service/hostname') }}"
