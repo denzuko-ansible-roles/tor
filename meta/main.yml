@@ -1,0 +1,24 @@
+galaxy_info:
+  author: denzuko
+  description: basic out of bounds ssh tor service 
+  issue_tracker_url: https://github.com/denzuko-ansible-roles/tor/issues
+  license: BSD
+  min_ansible_version: 2.0
+  github_branch: master
+  platforms:
+   - name: Centos
+     versions: [ all ]
+   - name: RedHat
+     versions: [ all ]
+   - name: Alpine
+     versions: [ all ]
+   - name: Debian
+     versions: [ all ]
+   - name: Ubuntu
+     versions: [ all ]
+
+  galaxy_tags:
+    - tor
+    - ssh
+    - hidden-service
+dependencies: []
