@@ -1,0 +1,9 @@
+--- 
+- name: Update apt package cache
+  apt: update_cache=yes
+  
+- name: Upgrade system
+  apt: upgrade=full
+
+- name: Install Tor router
+  apt: name=tor state=present
