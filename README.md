@@ -1,5 +1,6 @@
 # tor
-basic out of bounds ssh tor service
+
+Basic out of bounds ssh tor service which reports nodes onion names when completed
 
 ## Installation
 $ ``` ansible-galaxy install denzuko.tor ```
