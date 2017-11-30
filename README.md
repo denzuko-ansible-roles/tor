@@ -9,4 +9,4 @@ $ ``` ansible-galaxy install denzuko.tor ```
 * `Linux server`
 
 ## Files
-This module Installs /etc/tor/torrc and [Ubuntu tor](https://packages.ubuntu.com/search?keywords=tor)
+This module Installs /etc/tor/torrc and [tor daemon](https://www.torproject.org/docs/documentation.html.en)
