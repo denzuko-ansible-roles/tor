@@ -16,3 +16,5 @@
 
 - name: Display hidden service name
   debug: "Node address: {{ lookup('file', '/var/lib/tor/hidden_service/hostname') }}"
+
+# vim:ft=ansible:sts=4:ts=4:et:cin:ai:sw=4:
